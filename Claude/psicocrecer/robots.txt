@@ -1,9 +1,0 @@
-# PLACEHOLDER: actualizar la URL del sitemap con el dominio real al publicar.
-User-agent: *
-Allow: /
-Disallow: /aviso-legal.html
-Disallow: /politica-privacidad.html
-Disallow: /politica-cookies.html
-Disallow: /terminos.html
-
-Sitemap: https://tuusuario.github.io/psicocrecer/sitemap.xml
