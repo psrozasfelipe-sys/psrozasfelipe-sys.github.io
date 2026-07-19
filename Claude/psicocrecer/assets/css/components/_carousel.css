@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Componente: Carrusel de testimonios
+   ========================================================================== */
+
+.carousel {
+  position: relative;
+}
+
+.carousel__viewport {
+  overflow: hidden;
+}
+
+.carousel__track {
+  display: flex;
+  transition: transform var(--transition-slow);
+}
+
+.carousel__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  padding-inline: var(--space-1);
+}
+
+.carousel__controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  margin-top: var(--space-4);
+}
+
+.carousel__arrow {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  background-color: var(--surface-page);
+  border: 1px solid var(--border-default);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-primary);
+  transition: background-color var(--transition-base), border-color var(--transition-base);
+}
+
+.carousel__arrow:hover {
+  background-color: var(--surface-sage);
+  border-color: var(--color-sage-300);
+}
+
+.carousel__arrow--prev .icon { transform: rotate(180deg); }
+
+.carousel__dots {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.carousel__dot {
+  width: 9px;
+  height: 9px;
+  border-radius: var(--radius-full);
+  background-color: var(--color-gray-300);
+  transition: background-color var(--transition-base), transform var(--transition-base);
+}
+
+.carousel__dot.is-active {
+  background-color: var(--brand-primary);
+  transform: scale(1.3);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel__track {
+    transition: none;
+  }
+}
