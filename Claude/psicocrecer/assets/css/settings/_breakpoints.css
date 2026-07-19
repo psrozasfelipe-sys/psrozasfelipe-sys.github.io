@@ -1,0 +1,10 @@
+/* ==========================================================================
+   Breakpoints de referencia (documentación — CSS no soporta variables en
+   media queries, así que estos valores deben coincidir con los usados
+   directamente en cada @media a lo largo del proyecto).
+
+   --bp-sm:  480px   móvil grande
+   --bp-md:  768px   tablet
+   --bp-lg:  1024px  tablet horizontal / laptop pequeño
+   --bp-xl:  1280px  desktop
+   ========================================================================== */

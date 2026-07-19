@@ -1,0 +1,23 @@
+import { initNav } from './modules/nav.js';
+import { initScrollTop } from './modules/scroll-top.js';
+import { initRevealOnScroll } from './modules/reveal-on-scroll.js';
+import { initAccordions } from './modules/accordion.js';
+import { initCarousels } from './modules/carousel.js';
+import { initTableOfContents } from './modules/toc.js';
+import { initShareButtons } from './modules/share.js';
+import { initCommentForm } from './modules/comments.js';
+import { initBlogFilter } from './modules/blog-filter.js';
+import { initGatedDownloads } from './modules/gated-download.js';
+import { initContactForm } from './modules/contact-form.js';
+
+initNav();
+initScrollTop();
+initRevealOnScroll();
+initAccordions();
+initCarousels();
+initTableOfContents();
+initShareButtons();
+initCommentForm();
+initBlogFilter();
+initGatedDownloads();
+initContactForm();

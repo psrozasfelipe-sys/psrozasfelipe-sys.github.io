@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /aviso-legal.html
+Disallow: /politica-privacidad.html
+Disallow: /politica-cookies.html
+Disallow: /terminos.html
+
+Sitemap: https://www.psicocrecer.cl/sitemap.xml
